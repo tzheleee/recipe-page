@@ -1,0 +1,56 @@
+#img-chili, #img-garlic-pork, .div-ingredient, #h1-ingredients{
+    display: inline-block;
+}
+
+#img-chili, #img-garlic-pork, #img-beer-brats{
+    position: relative;
+    left: 265px;
+}
+
+body{
+    background-image: url('/img/background4.jpeg');
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+}
+
+.recipe-page{
+    border: 1px solid black;
+    background-color: rgba(250, 250, 250, 0.9);
+    margin: 20px 45px;
+}
+
+.intro{
+    color: green;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.h1-recipe-name{
+    font-style: italic ;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+.ul-ingredients, .h1-ingredients {
+    position: relative;
+    top: -60px;
+    left: 405px;
+}
+.daddy-pork, .beer-brats{
+    top: -220px;
+}
+
+
+.h1-ingredients, .h1-steps, .h1-tips{
+    font-size: 25px;
+    text-decoration: underline;
+    margin-left: 80px;
+}
+
+.div-steps, .div-tips{
+    font-size: 22px;
+    text-align: justify;
+    margin: 0px 20px 0px 40px;
+}

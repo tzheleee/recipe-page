@@ -1,0 +1,25 @@
+body{
+    background-image: url('/img/background4.jpeg');
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+}
+.div-main {
+    border: 1px solid black;
+    background-color: rgba(250, 250, 250, 0.9) ;
+    margin: 220px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    font-style: italic ;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#page-list{
+    list-style-type: none;
+}
